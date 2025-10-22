@@ -8,7 +8,7 @@ int main()
     printf("请输入摄氏度\n");
     scanf("%f",&degree);
     float fahdegree=degree*5/9+32;
-    printf("%f",fahdegree);
+    printf("%.1lf",fahdegree);
 
     return 0;
 }
