@@ -13,44 +13,45 @@ int main()
         scanf("%lf",&score);
         if(score>=90)
     {
-        printf("为A等\n");
+        printf("A\n");
     }
     else if(score>=80)
     {
-        printf("为B等\n");
+        printf("B\n");
     }
     else if(score>=70)
     {
-        printf("为C等\n");
+        printf("C\n");
     }
     else if(score>=60)
     {
-        printf("为D等\n");
+        printf("D\n");
     }
     else
     {
-        printf("为E等\n");
+        printf("E\n");
     }
     }
     else if(score>=90)
     {
-        printf("为A等\n");
+        printf("A\n");
     }
     else if(score>=80)
     {
-        printf("为B等\n");
+        printf("B\n");
     }
     else if(score>=70)
     {
-        printf("为C等\n");
+        printf("C\n");
     }
     else if(score>=60)
     {
-        printf("为D等\n");
+        printf("D\n");
     }
     else
     {
-        printf("为E等\n");
+        printf("E\n");
     }
     return 0;
+
 }
