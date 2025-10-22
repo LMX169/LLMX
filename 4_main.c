@@ -20,8 +20,9 @@ int main()
         printf("可以组成三角形\n");
     }
     else{
-        printf("不可以组成三角形\n");
+        printf("不能组成三角形\n");
     }
     return 0;
     
+
 }
