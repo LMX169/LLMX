@@ -11,6 +11,4 @@ int main()
     printf("它的华氏度为%f",fahdegree);
 
     return 0;
-
-
 }
