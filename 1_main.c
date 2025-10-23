@@ -4,11 +4,11 @@
 #include<stdio.h>
 int main()
 {
-    float degree=0;
+    float c=0;
     printf("请输入摄氏度\n");
-    scanf("%f",&degree);
-    float fahdegree=degree*5/9+32;
-    printf("%.1lf",fahdegree);
+    scanf("%f",&c);
+    float f=c*5/9+32;
+    printf("%.1lf\n",f);
 
     return 0;
 }
