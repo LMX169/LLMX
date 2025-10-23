@@ -11,14 +11,6 @@ int main()
     {
         printf("可以组成三角形\n");
     }
-    else if(a==b&&b==c)
-    {
-        printf("可以组成三角形\n");
-    }
-    else if(a==b||b==c)
-    {
-        printf("可以组成三角形\n");
-    }
     else{
         printf("不能组成三角形\n");
     }
@@ -26,3 +18,4 @@ int main()
     
 
 }
+
