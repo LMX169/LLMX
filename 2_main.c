@@ -4,14 +4,14 @@
 #include<stdio.h>
 int main()
 {
-    double score = 0;
+    int score = 0;
     printf("请输入成绩\n");
-    scanf("%f",&score);
+    scanf("%d",&score);
     if (score>100||score<0)
     {
         printf("请重新输入\n");
         scanf("%lf",&score);
-        if(score>=90)
+        if(score>=90&&score<=100)
     {
         printf("A\n");
     }
@@ -32,7 +32,7 @@ int main()
         printf("E\n");
     }
     }
-    else if(score>=90)
+    else if(score>=90&&score<=100)
     {
         printf("A\n");
     }
