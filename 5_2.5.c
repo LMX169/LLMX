@@ -5,11 +5,18 @@
 int main()
 {
     int first=1;
-    int arr[5]={1,2,3,4};
-    for (int i = -1; i < 4; i++)
+    int arr[5]={0,0,0,0,0};
+    int num = 0;
+    for (int i = 0; i < 4; i++)
+    {
+        scanf("%d",&num);
+        arr[i] = num;
+    }
+    for (int i = 0; i < 4; i++)
     {
         arr[4] = arr[4]+arr[i];
     }
+    
     for (int i = 0; i < 5; i++)
     {
         if (first==1)
