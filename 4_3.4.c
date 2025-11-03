@@ -13,7 +13,7 @@ int power(int a,int b)
 }
 int main()
 {
-    int num = 1;
+    int num = 0;
     for (int i = 1; i <= 5; i++)
     {
         num +=power(i,2);
@@ -22,5 +22,6 @@ int main()
     return 0;
 
 }
+
 
 
