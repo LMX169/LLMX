@@ -14,10 +14,11 @@ int power(int a,int b)
 int main()
 {
     int num;
-    for (int i = 1; i < 6; i++)
+    for (int i = 1; i <= 5; i++)
     {
         num =power(i,2) + num;
     }
     printf("%d",num);
     return 0;
+
 }
